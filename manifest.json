@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "Udemy Test Auto Unpause",
+    "version": "1.0",
+    "description": "Udemyのテスト一時停止ポップアップで自動的にテストを再開します。",
+    "permissions": ["scripting"],
+    "content_scripts": [
+      {
+        "matches": ["https://www.udemy.com/*"],
+        "js": ["content.js"]
+      }
+    ],
+    "icons": {
+      "48": "icon.png"
+    }
+  }
+  
