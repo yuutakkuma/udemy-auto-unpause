@@ -31,4 +31,4 @@ const observer = new MutationObserver(() => {
 });
 observer.observe(document.body, { childList: true, subtree: true });
 
-setInterval(tryClickUnpauseButton, 1000);
+// setInterval(tryClickUnpauseButton, 1000); <- 現状はobserverで十分なのでコメントアウトする
