@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Udemy Test Auto Unpause",
-    "version": "1.1",
+    "version": "1.0.0",
     "description": "Udemyのテスト一時停止ポップアップを自動で解除。ON/OFF切り替え可能。",
     "permissions": ["storage", "scripting"],
     "action": {
