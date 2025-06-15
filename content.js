@@ -1,3 +1,6 @@
+// MIT License
+// Copyright (c) 2025 Yuta Watanabe
+
 let enabled = true; // デフォルト
 
 chrome.storage.sync.get("enabled", (data) => {

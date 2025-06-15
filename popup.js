@@ -1,3 +1,6 @@
+// MIT License
+// Copyright (c) 2025 Yuta Watanabe
+
 const toggle = document.getElementById("toggle");
 
 chrome.storage.sync.get("enabled", (data) => {
